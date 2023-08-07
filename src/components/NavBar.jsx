@@ -6,9 +6,9 @@ const NavBar = () => {
     <>
       <div
         id="NavBar"
-        className="flex list-none justify-around items-center text-lg w-full font-semibold  bg-gradient-to-r from-blue-800 to-indigo-900 h-[75  px]  shadow-lg"
+        className="flex flex-shrink list-none justify-around items-center text-lg w-full font-semibold  bg-gradient-to-r from-blue-800 to-indigo-900 h-full  shadow-lg"
       >
-        <h1 className="md:text-3xl text-white text-base my-5 font-serif">
+        <h1 className="lg:text-3xl text-white text-base my-5 font-serif ml-3 font-bold">
           Contact Details{" "}
         </h1>
         <div id="hide" className="text-white ">
@@ -31,7 +31,7 @@ const NavBar = () => {
         <div className="lg:flex cursor-pointer flex-row space-x-10 mx-5 ">
           <button
             // className=" bg-purple-600 h-[40px] text-white hover:text-base text-sm p-2 rounded-lg"
-            className="hover:scale-125 hover:text-purple-600 ease-in duration-150 w-fit bg-white p-1 rounded-md "
+            className="hover:scale-125 hover:text-purple-600 ease-in my-auto duration-150 w-fit bg-white p-1 rounded-md "
             type="button"
           >
             Login/ <span>Register</span>
